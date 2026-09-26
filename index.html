@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <header>
 
@@ -26,9 +25,7 @@
                 <a href="#">Testimonials</a>
                 <a href="#">About us</a>
             </nav>
-
         </header>
-
         <section class="hero">
 
             <div class="dots">
@@ -62,18 +59,6 @@
             <div class="hero-image">
                 <img src="./doctor.jpg" alt="Virtual healthcare">
             </div>
-
-        </section>
-
-        <section class="services">
-
-            <h2>Our services</h2>
-
-            <div class="line"></div>
-
-            <p>
-                We provide to you the best choices for you. Adjust it to your health needs and make sure you undergo treatment<br> with our highly qualified doctors you can consult with us which type of service is suitable for your health
-            </p>
 
         </section>
 
@@ -115,9 +100,11 @@
                         <p class="service-text">Free consultation with our trusted doctors and get the best recommendations</p>
                     </div>
                     <!-- Service 5 -->
-                    <img src="/anh5.jpg" alt="Emergency care" class="service-icon">
-                    <h3 class="service-name">Emergency care</h3>
-                    <p class="service-text">You can get 24/7 urgent care for yourself or your children and your lovely family</p>
+                    <div class="service-card">
+                        <img src="/anh5.jpg" alt="Emergency care" class="service-icon">
+                        <h3 class="service-name">Emergency care</h3>
+                        <p class="service-text">You can get 24/7 urgent care for yourself or your children and your lovely family</p>
+                    </div>
                     <!-- Service 6 -->
                     <div class="service-card">
                         <img src="/anh6.jpg" alt="Tracking" class="service-icon">
@@ -145,8 +132,130 @@
                 </div>
             </section>
 
+            <section class="apps-section flex-container">
+                <div class="apps-content">
+                    <h2 class="section-title">Download our<br>mobile apps</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-description">
+                        Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedious form, long calls, or administrative hassle) and securely
+                    </p>
+                    <button class="btn-primary-outline">Download <span aria-hidden="true">↓</span></button>
+                </div>
+                <div class="apps-image">
+                    <img src="/doctor2.jpg" alt="Mobile healthcare application illustration">
+                </div>
+            </section>
+
+            <section class="testimonials-section">
+                <div class="testimonial-card">
+                    <div class="testimonial-dots testimonial-dots-top" aria-hidden="true"></div>
+                    <h2 class="testimonial-title">What our customer are saying</h2>
+                    <div class="testimonial-underline"></div>
+
+                    <div class="testimonial-content">
+                        <div class="customer-profile">
+                            <div class="customer-avatar" aria-hidden="true">EN</div>
+                            <div>
+                                <h3>Edward Newgate</h3>
+                                <p>Founder Circle</p>
+                            </div>
+                        </div>
+                        <blockquote>
+                            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedious form, long calls, or administrative hassle) and securely”
+                        </blockquote>
+                    </div>
+                    <div class="testimonial-dots testimonial-dots-bottom" aria-hidden="true"></div>
+                </div>
+
+                <div class="testimonial-controls" aria-label="Testimonial navigation">
+                    <button type="button" aria-label="Previous testimonial">←</button>
+                    <div class="testimonial-indicators" aria-hidden="true">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <button type="button" aria-label="Next testimonial">→</button>
+                </div>
+            </section>
+
+            <section class="articles-section">
+                <div class="articles-decoration articles-decoration-left" aria-hidden="true"></div>
+                <div class="articles-decoration articles-decoration-right" aria-hidden="true"></div>
+                <h2 class="section-title">Check out our latest article</h2>
+                <div class="title-underline"></div>
+
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <img src="/doctor3.jpg" alt="Disease detection in the laboratory">
+                        <div class="article-content">
+                            <h3>Disease detection, check up in the laboratory</h3>
+                            <p>In this case, the role of the health laboratory is very important to do a disease detection...</p>
+                            <a href="#">Read more <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="/doctor4.jpg" alt="Herbal medicines">
+                        <div class="article-content">
+                            <h3>Herbal medicines that are safe for consumption</h3>
+                            <p>Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                            <a href="#">Read more <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="/doctor5.jpg" alt="Natural care for healthy facial skin">
+                        <div class="article-content">
+                            <h3>Natural care for healthy facial skin</h3>
+                            <p>A healthy lifestyle should start from now and also for your skin health. There are some...</p>
+                            <a href="#">Read more <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn-primary-outline">View all</button>
+                </div>
+            </section>
+
         </div>
     </main>
+
+    <footer class="site-footer">
+        <div class="footer-decoration footer-decoration-top" aria-hidden="true"></div>
+        <div class="footer-decoration footer-decoration-bottom" aria-hidden="true"></div>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="footer-logo-circle">T</span>
+                    <strong>Trafalgar</strong>
+                </div>
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                <small>©Trafalgar PTY LTD 2020. All rights reserved</small>
+            </div>
+
+            <div class="footer-column">
+                <h3>Company</h3>
+                <a href="#">About</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Find a doctor</a>
+                <a href="#">Apps</a>
+            </div>
+            <div class="footer-column">
+                <h3>Region</h3>
+                <a href="#">Indonesia</a>
+                <a href="#">Singapore</a>
+                <a href="#">Hongkong</a>
+                <a href="#">Canada</a>
+            </div>
+            <div class="footer-column">
+                <h3>Help</h3>
+                <a href="#">Help center</a>
+                <a href="#">Contact support</a>
+                <a href="#">Instructions</a>
+                <a href="#">How it works</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
